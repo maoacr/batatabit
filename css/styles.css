@@ -4,7 +4,6 @@
 3. Tipografías
 4. Estilos visuales
 5. Otros
-font-family: 'Inter', sans-serif;
 */
 :root {
   /* Colores */
@@ -93,4 +92,168 @@ header img {
   height: 8px;
   margin-left: 10px;
   background-image: url('../assets/icons/down-arrow.svg');
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+.main-exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.main-exchange-container--tittle {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.main-exchange-container .background-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url("../assets/img/Bitcoin.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-exchange-container h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+.main-exchange-container p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
+}
+.main-exchange-table-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--bitcoin-orange);
+  margin-bottom: 15px;
+
+}
+.main-exchange-table {
+  display: flex;
+  flex-direction: row;
+}
+.back-arrow {
+  z-index: 999;
+  display: inline-block;
+  width: 7.41px;
+  height: 12px;
+  background-image: url('../assets/icons/right-arrow.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+  transform: rotate(180deg);
+}
+.table {
+  width: 80%;
+  min-width: 200px;;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--just-white);
+  border-radius: 10px;
+  border: 0.5px solid var(--off-white);
+}
+.table ul {
+  list-style: none;
+  text-align: left;t
+}
+.table .bitcoin-name {
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #B5B0AC;
+}
+.table .bitcoin-name li {
+  padding: 10px 12px;
+  height: 40px;
+  border: 0.5px solid var(--off-white);
+}
+.table .bitcoin-value {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
+}
+.table .bitcoin-value li {
+  padding: 12px 0px 12px 10px;
+  height: 40px;
+  border: 0.5px solid var(--off-white);
+}
+.bitcoin-value .buy {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-left: 10px;
+  background-image: url('../assets/icons/trending-up.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bitcoin-value .sell {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-left: 10px;
+  background-image: url('../assets/icons/trending-down.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-exchange-table-container .main-exchange-table .next-arrow {
+  z-index: 999;
+  display: inline-block;
+  width: 7.41px;
+  height: 12px;
+  background-image: url('../assets/icons/right-arrow.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+.update {
+  text-align: center;
+  width: 70%;
+  max-width: 288px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--black);
+  background-color: var(--soft-orange);
+  padding: 8px;
+  margin: 20px auto 100px;
+  border-radius: 5px;
+
+}
+.comissions {
+  color: var(--secondary-blue);
 }
