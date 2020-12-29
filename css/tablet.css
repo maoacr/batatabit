@@ -1,0 +1,11 @@
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.benefits h2 {
+
+}
+.plans-container--slider {
+  justify-content: center;
+}
